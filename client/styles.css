@@ -5,8 +5,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 97vh;
-    width: 98vw;
 }
 
 #main {
@@ -27,29 +25,43 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 h3 {
  font-size: 1.1rem;
 }
 
+#questions h3 {
+    margin: 5% auto;
+}
+
 #questions {
     border: 1px solid green;
+    margin: 7% 5%;
 }
 
 .question {
     border: 1px solid pink;
+    height: 250px;
+    margin: 4% auto;
 }
 
 .question p {
     width: 65%;
 }
 
+textarea {
+    width: 65%;
+    resize: none;
+    height: 40%;
+}
+
 .images {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 7% auto;
 }
 
 .option {
