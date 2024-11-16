@@ -14,6 +14,11 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
+// An endpoint for an external application to request the data
+app.get('/data', (req, res) => {
+    res.sendFile(path.join(__dirname, 'data.json'));
+});
+
 // Start the server
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
