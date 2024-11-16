@@ -1,0 +1,15 @@
+{
+  "name": "chance-encounter_connection-portal",
+  "version": "1.0.0",
+  "description": "The web-application component of the chance encounter team's Wolfjam 2024 submission.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Will",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
