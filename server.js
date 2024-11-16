@@ -27,6 +27,18 @@ app.get('/data', (req, res) => {
     res.json(dataObject);  // Send JSON response
 });
 
+// POST endpoint to receive data from a user submission on the client
+app.post('/submit', (req, res) => {
+    const receivedData = req.body;  // Access data sent in the POST request
+    console.log('Data received:', receivedData);
+    
+    // Send a response confirming receipt of the data
+    res.json({ message: 'Data received successfully', receivedData });
+
+    // Send the data to our data.js file
+    data.loadData(receivedData);
+});
+
 // Start the server
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
