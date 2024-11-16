@@ -81,6 +81,10 @@ textarea {
     aspect-ratio: 1 / 1;
 }
 
+.images img:hover {
+    cursor: pointer;
+}
+
 #submit {
     margin: 4% auto;
     font-size: 2rem;
@@ -90,6 +94,11 @@ textarea {
     border-radius: 15px;
     padding: 2%;
 }
+
+button:hover {
+    cursor: pointer;
+}
+
 
 footer {
     /* border: 1px solid blueviolet; */
