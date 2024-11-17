@@ -91,7 +91,7 @@ const loadData = (data) => {
     console.log(dataObject);
 
     // Add this object to the array
-    dataArray.push(dataObject);
+    dataArray.data.push(dataObject);
 
 }
 
