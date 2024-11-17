@@ -1,6 +1,10 @@
 # chance-encounter_connection-portal
 The web-application component of the chance encounter team's Wolfjam 2024 submission.
 
+
+Full Project Documentation: https://docs.google.com/document/d/1L-EeuRZiXiEwYqDNQ3z5RnlU_mVzYjCd-RGu8ndVL7g/edit?tab=t.0
+
+
 How To Use:
 
 Access the web application from a web browser on a device (preferably a laptop but not required) at https://chance-encounter-web-app-b8362524d7c2.herokuapp.com/
