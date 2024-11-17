@@ -4,7 +4,12 @@
 const express = require('express');
 const path = require('path'); // For working with file paths
 const app = express();
+const cors = require('cors');
 const port = process.env.PORT || process.env.NODE_PORT || 3000;;
+
+
+// Enable CORS for all routes
+app.use(cors());
 
 // Middleware to parse JSON data from POST requests
 app.use(express.json());
